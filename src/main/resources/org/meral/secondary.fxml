@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.meral.controller.SecondaryController">
+    <children>
+        <TableView fx:id="userTable" layoutX="1.0" prefHeight="358.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="288.7999756336212" text="%name" />
+                <TableColumn fx:id="sernameColumn" prefWidth="309.60003662109375" text="%sername" />
+            </columns>
+        </TableView>
+        <Button layoutX="363.0" layoutY="361.0" mnemonicParsing="false" onAction="#returnButtonHandler" onMouseClicked="#switchToPrimary" prefHeight="34.0" prefWidth="226.0" text="%return" />
+    </children>
+</AnchorPane>
